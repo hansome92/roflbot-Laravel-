@@ -1,0 +1,44 @@
+#lightbox {
+    position: absolute;
+    top: 0;
+    left: 26%;
+    width: 850px;    
+    height: 500px;
+    background: #e0f7f9;
+    z-index: 1001;
+    display: none;
+    border: solid 6px #878788;
+    border-radius: 10px;
+    border-opacity: 0.5;
+}
+#lightbox-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8e9090;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+    z-index: 1000;
+    display: none;
+}
+#closebtn{
+    position:absolute;
+    top: 1%;
+    left: 96%;
+    background: url("../images/close.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+#loading{
+    position: relative;
+    top: 45%;
+    left: 45%;
+    background: url("../images/lightbox-ico-loading.gif") no-repeat;
+    width: 32px;
+    height: 32px;
+}

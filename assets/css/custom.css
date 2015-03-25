@@ -1,0 +1,216 @@
+/*Heading*/
+.pagehead{
+font: 18px Verdana;
+padding-top:15px;
+}
+
+/*Right green button*/
+.leading_withlinks {
+	margin-bottom:10px;
+}
+
+/*Module List*/
+
+.modulelist {
+padding-left:15px;
+}
+
+.modulelist li{
+padding-top:2px;
+padding-bottom:5px;
+list-style-type: none;
+background: url('/assets/images/module-list/text.png') no-repeat top left;
+padding-left: 40px;
+height:45px;
+}
+
+.green_m{
+background-color:#8FE539;
+color:#005408;
+font-weight:bold;
+display:inline;
+}
+
+.red_m{
+background-color:#FDDCDC;
+color:#DD0000;
+font-weight:bold;
+display:inline;
+}
+
+.complete_m{
+}
+
+.current_m{
+font-weight:bold;	
+}
+
+.future_m{
+font-weight:bold;
+}
+
+.failed_m{
+}
+
+/*Sortable module list*/
+
+#sortable1 { 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+margin-bottom: 15px;
+zoom: 1; 
+font-size: 16px; 
+}
+
+#sortable1 li { 
+margin: 0 5px 5px 35px; 
+padding: 5px; 
+font-weight:bold;
+width: 90%; 
+}
+
+/*Module Bottom Navigation Bar*/
+.module_nav{
+width:100%;
+height:100%;
+font-size:16px;
+font-weight:bold;
+}
+
+.nav_left{
+float:left;
+padding-bottom:10px;
+}
+
+.nav_right{
+float:right;
+padding-bottom:10px;
+}
+
+/*Permissions*//*also used to indent subcontent*/
+.permissions{
+padding-left:20px;
+}
+
+.permissions label{
+font-size: 14px;
+line-height:30px;
+}
+
+.permissions-small{ /*Used on add person page*/
+padding-left:20px;
+}
+
+/*Horizontal Tab Menu*/
+#tablist{
+padding: 5px 0;
+margin-left: 0;
+margin-bottom: 0;
+margin-top: 0.1em;
+font: 12px Verdana;
+border-bottom: 3px solid #205EA0;
+}
+
+#tablist li{
+list-style: none;
+display: inline;
+margin: 0;
+}
+
+#tablist li a{
+text-decoration: none;
+padding: 5px 0.5em;
+margin-right: 3px;
+border: 1px solid #3A83D1;
+border-bottom: none;
+background: #3A83D1;
+}
+
+#tablist li a:link, #tablist li a:visited{
+color: #ffffff;
+}
+
+#tablist li a:hover{
+color: white;
+background: #205EA0;
+border: 2px solid #205EA0;
+}
+
+#tablist li a.current{
+background: #205EA0;
+border: 3px solid #205EA0;
+}
+
+/*Assessments*/
+.mc_question{
+font-size:14px;
+font-weight:bold;
+padding-top:10px;
+}
+
+.mc_answer{
+font-size:12px;
+padding-left:10px;
+padding-top:5px;
+}
+
+.mc_solutions{
+padding-top:5px;
+padding-bottom:5px;
+background-color:#eeeeee;
+width:500px;
+}
+
+.mc_correct{
+background-color:#8FE539;
+color:#005408;
+font-weight:bold;
+display:inline;
+font-size:16px;
+}
+
+.mc_incorrect{
+background-color:#FDDCDC;
+color:#DD0000;
+font-weight:bold;
+display:inline;
+font-size:16px;
+}
+
+.mc_explanation{
+background-color:#C4E3FF;
+width:500px;
+}
+
+.assessment_score{
+font-size:16px;
+font-weight:bold;
+display:inline;
+}
+
+.assessment_pass{
+background-color:#8FE539;
+color:#005408;
+font-weight:bold;
+display:inline;
+font-size:16px;
+}
+
+.assessment_fail{
+background-color:#FDDCDC;
+color:#DD0000;
+font-weight:bold;
+display:inline;
+font-size:16px;
+}
+
+/* 
+
+CUSTOM STYLESHEET
+
+Add your custom styles here instead of style.css so it is easier to 
+update the template. Simply copy an existing style from style.css to 
+this file, and modify it to your liking. 
+
+*/
